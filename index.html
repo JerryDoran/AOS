@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS LINK -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Acrylic Painting Gallery</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1><span>Acrylic Painting</span> Gallery</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, sit?
+      </p>
+    </header>
+
+    <main class="container">
+      <!-- PAINTING ONE -->
+      <section class="card">
+        <img src="/images/paint-1.jpg" alt="" />
+        <div>
+          <h3>Acrylic Painting One</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, amet
+            quis explicabo velit, quod soluta sunt nihil perspiciatis ipsam
+            dolores optio officiis exercitationem necessitatibus nisi pariatur
+            voluptatibus, saepe eos mollitia?
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+
+      <!-- PAINTING TWO -->
+      <section class="card" data-aos="fade-left">
+        <img src="/images/paint-2.jpg" alt="" />
+        <div>
+          <h3>Acrylic Painting Two</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, amet
+            quis explicabo velit, quod soluta sunt nihil perspiciatis ipsam
+            dolores optio officiis exercitationem necessitatibus nisi pariatur
+            voluptatibus, saepe eos mollitia?
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+
+      <!-- PAINTING THREE -->
+      <section class="card" data-aos="fade-right">
+        <img src="/images/paint-3.jpg" alt="" />
+        <div>
+          <h3>Acrylic Painting Three</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, amet
+            quis explicabo velit, quod soluta sunt nihil perspiciatis ipsam
+            dolores optio officiis exercitationem necessitatibus nisi pariatur
+            voluptatibus, saepe eos mollitia?
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+
+      <!-- PAINTING FOUR-->
+      <section class="card" data-aos="fade-left">
+        <img src="/images/paint-4.jpg" alt="" />
+        <div>
+          <h3>Acrylic Painting Four</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, amet
+            quis explicabo velit, quod soluta sunt nihil perspiciatis ipsam
+            dolores optio officiis exercitationem necessitatibus nisi pariatur
+            voluptatibus, saepe eos mollitia?
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+
+      <!-- PAINTING FIVE -->
+      <section class="card" data-aos="fade-right">
+        <img src="/images/painting-5.jpg" alt="" />
+        <div>
+          <h3>Acrylic Painting Five</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, amet
+            quis explicabo velit, quod soluta sunt nihil perspiciatis ipsam
+            dolores optio officiis exercitationem necessitatibus nisi pariatur
+            voluptatibus, saepe eos mollitia?
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom' // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
+  </body>
+</html>
